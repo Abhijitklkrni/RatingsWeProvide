@@ -25,8 +25,8 @@ public class UserLoginApiImpl implements UserLoginApi {
 	public ResponseEntity<User> register(@RequestBody User user) {
 		try {
 			user.setRegId(userLoginService.register(user));
-			ResponseEntity<User> re = new ResponseEntity<User>(user, HttpStatus.OK);
-			return re;
+			ResponseEntity<User> res = new ResponseEntity<User>(user, HttpStatus.OK);
+			return res;
 			
 		} catch (Exception e) {
 			User user1=new User();
