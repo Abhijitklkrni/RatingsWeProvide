@@ -1,5 +1,6 @@
 # RatingsWeProvide
 
-A Java + Hibernate + Spring project for basic authentication
 
+A Java + Spring + Hibernate Project.
+For basic authentication and password restriction checks
 
